@@ -1,13 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
+<!-- Fonts links -->
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap" rel="stylesheet">
+<!-- Instruction for the styles of the elements that are inside the body -->
+    <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background: silver;
+    }
+
+    button {
+      font-family: 'VT323', monospace;
+      font-size: 15px;
+      border: 1.5px solid black;
+      color: white;
+      background-color: Darkgray;
+      padding: 6px 30px;
+      height: 40px;
+      width: 190;
+      outline: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: gray;
+      color: white;
+    }
+
+    h1 {
+      font-family: 'VT323', monospace;
+      font-size: 60px;
+      color: Dimgray;
+      position: absolute;
+      left: 450px;
+      top: -20px;
+    }
+
+    p {
+      font-family: 'VT323', monospace;
+      font-size: 20px;
+      color: Dimgray;
+    }
+
+    input {
+      width: 170px;
+      height: 20px;
+      padding: 2px 6px;
+      border: 1.5px dashed black;
+      background-color: Darkgray;
+      color: white;
+      font-family: 'VT323', monospace;
+      font-size: 15px;
+      outline: none;
+    }
+
+    input[type=text]:focus {
+      background-color: gray;
+    }
+
+ </style>
+
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
     <style> body {padding: 0; margin: 0;} </style>
     <script src="p5.min.js"></script>
-    <script src="p5.sound.min.js"></script>
+    <!-- <script src="addons/p5.sound.min.js"></script> -->
     <script src="sketch.js"></script>
   </head>
   <body>
+        <h1 class= "title"> VAPORWAVE NAME GENERATOR </h1>
   </body>
 </html>
